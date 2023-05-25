@@ -89,7 +89,7 @@ const Home = () => {
           <div className="row">
             <div className="col-11">
               <div className="servies d-flex align-items-center justify-content-between">
-                <div>
+                <div className="d-flex align-items-center gap-15">
                   <img
                     src="images/target-logo-black-transparent.png"
                     alt="companies"
@@ -101,7 +101,7 @@ const Home = () => {
                     <p></p>
                   </div>
                 </div>
-                <div>
+                <div className="d-flex align-items-center gap-15">
                   <img
                     src="images/walmart-logo-black-transparent.png"
                     alt="companies"
@@ -113,7 +113,7 @@ const Home = () => {
                     <p></p>
                   </div>
                 </div>
-                <div>
+                <div className="d-flex align-items-center gap-15">
                   <img
                     src="images/ralphs-logo-png-transparent.png"
                     alt="companies"
@@ -125,7 +125,7 @@ const Home = () => {
                     <p></p>
                   </div>
                 </div>
-                <div>
+                <div className="d-flex align-items-center gap-15">
                   <img
                     src="images/trader-joes-logo-png-transparent.png"
                     alt="companies"
@@ -161,6 +161,71 @@ const Home = () => {
                     <p></p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*Categories */}
+      <section className="home-wrapper-2 py-5">
+        <div className="row">
+          <div className="col-12">
+            <div className="categories d-flex justify-content-between flex-wrap align-items-center">
+              <div className="d-flex gap-30 align-items-center">
+                <div>
+                  <h6>Groceries</h6>
+                  {/* <p>10 Items</p> */}
+                </div>
+                <img src="images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex gap-30 align-items-center">
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src="images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex gap-30 align-items-center">
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src="images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex gap-30 align-items-center">
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src="images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex gap-30 align-items-center">
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src="images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex gap-30 align-items-center">
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src="images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex gap align-items-center">
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src="images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex gap align-items-center">
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>10 Items</p>
+                </div>
+                <img src="images/camera.jpg" alt="camera" />
               </div>
             </div>
           </div>

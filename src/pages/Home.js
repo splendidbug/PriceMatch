@@ -276,6 +276,86 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/*Featured collections */}
+      <section className="featured-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Featured Collections</h3>
+            </div>
+
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+          </div>
+        </div>
+      </section>
+
+      <section className="famous-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-1.webp" className="img-fluid" />
+                <div className="famous-content position-absolute">
+                  <h5>Big Screen</h5>
+                  <h6>smart watch series 7</h6>
+                  <p>From $399 or finance</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-2.webp" className="img-fluid" />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Big Screen</h5>
+                  <h6 className="text-dark">smart watch series 7</h6>
+                  <p className="text-dark">From $399 or finance</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-3.webp" className="img-fluid" />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Big Screen</h5>
+                  <h6 className="text-dark">smart watch series 7</h6>
+                  <p className="text-dark">From $399 or finance</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-4.webp" className="img-fluid" />
+                <div className="famous-content position-absolute">
+                  <h5 className="text-dark">Big Screen</h5>
+                  <h6 className="text-dark">smart watch series 7</h6>
+                  <p className="text-dark">From $399 or finance</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*popular products */}
+      <section className="popular-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Popular Products</h3>
+            </div>
+          </div>
+          <div className="row">
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+          </div>
+        </div>
+      </section>
+
       {/*Moving banner with brand names */}
       <section className="marque-wrapper home-wrapper-2 py-5">
         <div className="container-xxl">
@@ -318,20 +398,6 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="blog-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
-          <div className="row">
-            <div className="col-12">
-              <h3 className="section-heading">Featured Collections</h3>
-            </div>
-
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-          </div>
-        </div>
-      </section>
       <section className="blog-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">

@@ -26,10 +26,9 @@ const ProductCard = () => {
         </div>
         <div className="product-details">
           <h6 className="brand">Havels</h6>
-          <h5 className="product-title">wrgop jroeihg iego heio</h5>
+          <h5 className="product-title">Product name</h5>
           <ReactStars
             count={5}
-            // onChange={ratingChanged}
             size={24}
             value="3"
             edit={false}

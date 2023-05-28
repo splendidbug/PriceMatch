@@ -282,7 +282,6 @@ footer .input-group-text {
   border-radius: 10px;
   overflow: hidden;
   width: 100%;
-  text-decoration: none;
 }
 .product-card .product-image {
   height: 270px;
@@ -302,17 +301,17 @@ footer .input-group-text {
 .product-card:hover .action-bar {
   right: 15px;
 }
-.product-card .product-details h6 {
-  color: var(--color-bf4800);
+.product-card .product-details h6 { /*Brand name */
+  color: #1c1c1b;
   font-size: 13px;
 }
-.product-card .product-details h5 {
+.product-card .product-details h5 { /*product name */
   font-size: 15px;
-  color: var(--color-1c1c1b);
+  color: #1c1c1b;
 }
-.product-card .product-details p.price {
+.product-card .product-details p.price { /*Price */
   font-size: 16px;
-  color: var(--color-1c1c1b);
+  color: #1c1c1b;
 }
 .action-bar {
   top: 10%;
@@ -324,3 +323,34 @@ footer .input-group-text {
   right: 15px;
 }
 /* Product Card ends here */
+
+/* famous card */
+
+.famous-card .famous-content {
+  top: 10%;
+  left: 5%;
+}
+.famous-card img {
+  border-radius: 10px;
+}
+.famous-content h5 {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400px;
+  color: white;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+.famous-content h6 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 500;
+  color: white;
+}
+.famous-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  color: white;
+}
+/* famous card ends */

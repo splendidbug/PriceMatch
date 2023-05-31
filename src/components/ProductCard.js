@@ -15,17 +15,17 @@ const ProductCard = () => {
           <img
             src="images/watch.jpg"
             alt="product image"
-            className="img-fluid"
+            // max-width="200"
+            // className="img-fluid"
           />
           <img
             src="images/watch-1.jpg"
             alt="product image"
             className="img-fluid"
-            // width="100"
           />
         </div>
         <div className="product-details">
-          <h6 className="brand">Havels</h6>
+          <h6 className="brand">Target</h6>
           <h5 className="product-title">Product name</h5>
           <ReactStars
             count={5}

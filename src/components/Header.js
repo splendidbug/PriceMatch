@@ -20,7 +20,9 @@ export const Header = () => {
         <div className="row align-items-center">
           <div className="col-3">
             <h4>
-              <Link className="text-white ms-4  ">Price Match</Link>
+              <Link className="text-white ms-4  " to="/">
+                Price Match
+              </Link>
             </h4>
           </div>
           <div className="col-5">
@@ -59,7 +61,7 @@ export const Header = () => {
         </div>
       </header>
       <header className="header-bottom py-3">
-        <div className="container-xxl">
+        <div className="container-xxxl ms-3">
           <div className="row">
             <div className="col-12">
               <div className="menu-bottom d-flex align-items-center gap-15">

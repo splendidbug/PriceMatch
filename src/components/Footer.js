@@ -56,7 +56,7 @@ export const Footer = () => {
             <div className="col-6">
               <div className="footer-top-data d-flex gap-15 align-items-center ">
                 <img
-                  src={"images/newsletter.png"}
+                  src="../images/newsletter.png"
                   alt="newsletter"
                   className="ms-5"
                 />

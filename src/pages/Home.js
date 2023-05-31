@@ -295,6 +295,9 @@ const Home = () => {
       <section className="famous-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Some stupid title</h3>
+            </div>
             <div className="col-3">
               <div className="famous-card position-relative">
                 <img src="images/famous-1.webp" className="img-fluid" />

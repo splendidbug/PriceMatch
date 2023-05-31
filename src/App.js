@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import SearchResult from "./pages/SearchResult";
+import ProductDescription from "./pages/ProductDescription";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="search-query" element={<SearchResult />} />
+            <Route path="product-id" element={<ProductDescription />} />
           </Route>
         </Routes>
       </BrowserRouter>

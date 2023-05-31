@@ -2,8 +2,15 @@ import React, { useState } from "react";
 import Meta from "../components/Meta";
 import ProductCard from "../components/ProductCard";
 import ReactStars from "react-rating-stars-component";
-
+import ReactImageZoom from "react-image-zoom";
 const ProductDescription = () => {
+  const props = {
+    width: 594,
+    height: 600,
+    zoomWidth: 600,
+
+    img: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg",
+  };
   const [orderedProduct, setorderedProduct] = useState(true); //true if we want to display the "write a review" option. false otherwise
   return (
     <>
@@ -11,7 +18,45 @@ const ProductDescription = () => {
       <div className="main-product-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-6"></div>
+            {/* images  */}
+            <div className="col-6">
+              <div className="main-product-image">
+                <div>
+                  <ReactImageZoom {...props} />
+                </div>
+              </div>
+              <div className="other-product-images d-flex flex-wrap gap-15">
+                <div>
+                  <img
+                    src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                    className="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                    className="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                    className="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <img
+                    src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=pexels-fernando-arcos-190819.jpg&fm=jpg"
+                    className="img-fluid"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            {/* description  */}
             <div className="col-6"></div>
           </div>
         </div>

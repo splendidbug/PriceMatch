@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import newsletter from "../images/newsletter.png";
 export const Footer = () => {
   return (
     <>
@@ -55,11 +55,7 @@ export const Footer = () => {
           <div className="row align-items-center ">
             <div className="col-6">
               <div className="footer-top-data d-flex gap-15 align-items-center ">
-                <img
-                  src="../images/newsletter.png"
-                  alt="newsletter"
-                  className="ms-5"
-                />
+                <img src={newsletter} alt="newsletter" className="ms-5" />
                 <h6 className="mb-0 text-white">Sign Up for Daily Offers</h6>
               </div>
             </div>

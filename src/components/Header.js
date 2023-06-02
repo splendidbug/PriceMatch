@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import cart_44_24 from "../images/cart-44-24.png";
+import login from "../images/login.png";
 
 export const Header = () => {
   return (
@@ -43,7 +45,7 @@ export const Header = () => {
             <div className="header-upper-links d-flex align-items-center justify-content-end">
               <div>
                 <Link className="d-flex align-items-center gap-10 text-white me-5">
-                  <img src="/images/cart-44-24.png" />
+                  <img src={cart_44_24} />
                   <div className="d-flex flex-column">
                     <span className="badge bg-white text-dark">0</span>
                     <p className="mb-0">$20</p>
@@ -52,7 +54,7 @@ export const Header = () => {
               </div>
               <div>
                 <Link className="d-flex align-items-center gap-10 text-white me-4">
-                  <img src="/images/login.png" />
+                  <img src={login} />
                   <p className="mb-0">My Account</p>
                 </Link>
               </div>

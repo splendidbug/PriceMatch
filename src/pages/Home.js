@@ -3,6 +3,18 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
+import mainBanner1 from "../images/main-banner-1.jpg";
+import catBanner from "../images/catbanner-01.jpg";
+import catBanner2 from "../images/catbanner-02.jpg";
+import catBanner3 from "../images/catbanner-03.jpg";
+import catBanner4 from "../images/catbanner-04.jpg";
+import targetLogo from "../images/target-logo-black-transparent.png";
+import walmartLogo from "../images/walmart-logo-black-transparent.png";
+import ralphsLogo from "../images/ralphs-logo-png-transparent.png";
+import traderJoesLogo from "../images/trader-joes-logo-png-transparent.png";
+import amazonLogo from "../images/amazon-logo-black-transparent.png";
+import costcoLogo from "../images/costco-wholesale-logo-black-and-white.png";
+
 const Home = () => {
   return (
     <>
@@ -13,7 +25,7 @@ const Home = () => {
             <div className="col-6">
               <div className="main-banner position-relative">
                 <img
-                  src="images/main-banner-1.jpg"
+                  src={mainBanner1}
                   className="img-fluid rounded-3"
                   alt="main banner"
                 />
@@ -29,7 +41,7 @@ const Home = () => {
               <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
                 <div className="small-banner position-relative">
                   <img
-                    src="images/catbanner-01.jpg"
+                    src={catBanner}
                     className="img-fluid rounded-3"
                     alt="main banner"
                   />
@@ -43,7 +55,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative">
                   <img
-                    src="images/catbanner-02.jpg"
+                    src={catBanner2}
                     className="img-fluid rounded-3"
                     alt="main banner"
                   />
@@ -57,7 +69,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative">
                   <img
-                    src="images/catbanner-03.jpg"
+                    src={catBanner3}
                     className="img-fluid rounded-3"
                     alt="main banner"
                   />
@@ -71,7 +83,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative">
                   <img
-                    src="images/catbanner-04.jpg"
+                    src={catBanner4}
                     className="img-fluid rounded-3"
                     alt="main banner"
                   />
@@ -96,7 +108,7 @@ const Home = () => {
               <div className="servies d-flex align-items-center justify-content-between">
                 <div className="d-flex align-items-center gap-15">
                   <img
-                    src="images/target-logo-black-transparent.png"
+                    src={targetLogo}
                     alt="companies"
                     width="50"
                     height="50"
@@ -108,7 +120,7 @@ const Home = () => {
                 </div>
                 <div className="d-flex align-items-center gap-15">
                   <img
-                    src="images/walmart-logo-black-transparent.png"
+                    src={walmartLogo}
                     alt="companies"
                     width="157.14"
                     height="35.71"
@@ -120,7 +132,7 @@ const Home = () => {
                 </div>
                 <div className="d-flex align-items-center gap-15">
                   <img
-                    src="images/ralphs-logo-png-transparent.png"
+                    src={ralphsLogo}
                     alt="companies"
                     width="105"
                     height="40"
@@ -132,7 +144,7 @@ const Home = () => {
                 </div>
                 <div className="d-flex align-items-center gap-15">
                   <img
-                    src="images/trader-joes-logo-png-transparent.png"
+                    src={traderJoesLogo}
                     alt="companies"
                     width="165"
                     height="35"
@@ -144,7 +156,7 @@ const Home = () => {
                 </div>
                 <div>
                   <img
-                    src="images/amazon-logo-black-transparent.png"
+                    src={amazonLogo}
                     alt="companies"
                     width="113"
                     height="36"
@@ -156,7 +168,7 @@ const Home = () => {
                 </div>
                 <div>
                   <img
-                    src="images/costco-wholesale-logo-black-and-white.png"
+                    src={costcoLogo}
                     alt="companies"
                     width="100"
                     height="30"

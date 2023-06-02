@@ -1,28 +1,29 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 import { Link } from "react-router-dom";
+import wish from "../images/wish.svg";
+import watch from "../images/watch.jpg";
+import watch1 from "../images/watch-1.jpg";
+import cart from "../images/add-cart.svg";
+import compare from "../images/prodcompare.svg";
 
 const ProductCard = () => {
   return (
     <div className="col-3">
-      <Link className="product-card position-relative" to="/product-id">
+      <Link className="product-card position-relative" to="/product/id">
         <div className="wishlist-icon position-absolute">
           <Link>
-            <img src="images/wish.svg" />
+            <img src={wish} />
           </Link>
         </div>
         <div className="product-image">
           <img
-            src="images/watch.jpg"
+            src={watch}
             alt="product image"
             // max-width="200"
             // className="img-fluid"
           />
-          <img
-            src="images/watch-1.jpg"
-            alt="product image"
-            className="img-fluid"
-          />
+          <img src={watch1} alt="product image" className="img-fluid" />
         </div>
         <div className="product-details">
           <h6 className="brand">Target</h6>
@@ -39,13 +40,10 @@ const ProductCard = () => {
         <div className="action-bar position-absolute">
           <div className="d-flex flex-column gap-15">
             <Link>
-              <img src="images/add-cart.svg" alt="add to cart" />
+              <img src={cart} alt="add to cart" />
             </Link>
             <Link>
-              <img src="images/prodcompare.svg" alt="add to cart" />
-            </Link>
-            <Link>
-              <img src="images/prodcompare.svg" alt="add to cart" />
+              <img src={compare} alt="add to cart" />
             </Link>
           </div>
         </div>

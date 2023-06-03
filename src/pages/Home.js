@@ -14,6 +14,26 @@ import ralphsLogo from "../images/ralphs-logo-png-transparent.png";
 import traderJoesLogo from "../images/trader-joes-logo-png-transparent.png";
 import amazonLogo from "../images/amazon-logo-black-transparent.png";
 import costcoLogo from "../images/costco-wholesale-logo-black-and-white.png";
+import sea from "../images/categories/sea.jpg";
+import frozen from "../images/categories/frozen.jpg";
+import fruitsAndVegitables from "../images/categories/fruit.jpg";
+import meat from "../images/categories/meat.jpg";
+import dairy from "../images/categories/dairy.jpg";
+import alcohol from "../images/categories/alcohol.jpg";
+import beverages from "../images/categories/bev.jpg";
+import kitchenAndDining from "../images/categories/kitchen.jpg";
+import famous1 from "../images/famous-1.webp";
+import famous2 from "../images/famous-2.webp";
+import famous3 from "../images/famous-3.webp";
+import famous4 from "../images/famous-4.webp";
+import krogerLogo from "../images/companies/kroger-logo.png";
+import brand2 from "../images/brand-02.png";
+import brand3 from "../images/brand-03.png";
+import brand4 from "../images/brand-04.png";
+import brand5 from "../images/brand-05.png";
+import brand6 from "../images/brand-06.png";
+import brand7 from "../images/brand-07.png";
+import brand8 from "../images/brand-08.png";
 
 const Home = () => {
   return (
@@ -194,7 +214,7 @@ const Home = () => {
                   {/* <p>10 Items</p> */}
                 </div>
                 <img
-                  src="images/categories/sea.jpg"
+                  src={sea}
                   className="img-fluid rounded-3"
                   alt="camera"
                   width="150"
@@ -206,7 +226,7 @@ const Home = () => {
                   {/* <p>10 Items</p> */}
                 </div>
                 <img
-                  src="images/categories/Frozen.jpg"
+                  src={frozen}
                   className="img-fluid rounded-3"
                   alt="camera"
                   width="170"
@@ -218,7 +238,7 @@ const Home = () => {
                   {/* <p>10 Items</p> */}
                 </div>
                 <img
-                  src="images/categories/fruit.jpg"
+                  src={fruitsAndVegitables}
                   className="img-fluid rounded-3"
                   alt="camera"
                   width="155"
@@ -230,7 +250,7 @@ const Home = () => {
                   {/* <p>10 Items</p> */}
                 </div>
                 <img
-                  src="images/categories/meat.jpg"
+                  src={meat}
                   className="img-fluid rounded-3"
                   alt="camera"
                   width="160"
@@ -242,7 +262,7 @@ const Home = () => {
                   {/* <p>10 Items</p> */}
                 </div>
                 <img
-                  src="images/categories/dairy.jpg"
+                  src={dairy}
                   className="img-fluid rounded-3"
                   alt="camera"
                   width="160"
@@ -254,7 +274,7 @@ const Home = () => {
                   {/* <p>10 Items</p> */}
                 </div>
                 <img
-                  src="images/categories/alcohol.jpg"
+                  src={alcohol}
                   className="img-fluid rounded-3"
                   alt="camera"
                   width="140"
@@ -266,7 +286,7 @@ const Home = () => {
                   {/* <p>10 Items</p> */}
                 </div>
                 <img
-                  src="images/categories/bev.jpg"
+                  src={beverages}
                   className="img-fluid rounded-3"
                   alt="camera"
                   width="160"
@@ -278,7 +298,7 @@ const Home = () => {
                   {/* <p>10 Items</p> */}
                 </div>
                 <img
-                  src="images/categories/kitchen.jpg"
+                  src={kitchenAndDining}
                   className="img-fluid rounded-3"
                   alt="camera"
                   width="160"
@@ -312,7 +332,7 @@ const Home = () => {
             </div>
             <div className="col-3">
               <div className="famous-card position-relative">
-                <img src="images/famous-1.webp" className="img-fluid" />
+                <img src={famous1} className="img-fluid" />
                 <div className="famous-content position-absolute">
                   <h5>Big Screen</h5>
                   <h6>smart watch series 7</h6>
@@ -322,7 +342,7 @@ const Home = () => {
             </div>
             <div className="col-3">
               <div className="famous-card position-relative">
-                <img src="images/famous-2.webp" className="img-fluid" />
+                <img src={famous2} className="img-fluid" />
                 <div className="famous-content position-absolute">
                   <h5 className="text-dark">Big Screen</h5>
                   <h6 className="text-dark">smart watch series 7</h6>
@@ -332,7 +352,7 @@ const Home = () => {
             </div>
             <div className="col-3">
               <div className="famous-card position-relative">
-                <img src="images/famous-3.webp" className="img-fluid" />
+                <img src={famous3} className="img-fluid" />
                 <div className="famous-content position-absolute">
                   <h5 className="text-dark">Big Screen</h5>
                   <h6 className="text-dark">smart watch series 7</h6>
@@ -342,7 +362,7 @@ const Home = () => {
             </div>
             <div className="col-3">
               <div className="famous-card position-relative">
-                <img src="images/famous-4.webp" className="img-fluid" />
+                <img src={famous4} className="img-fluid" />
                 <div className="famous-content position-absolute">
                   <h5 className="text-dark">Big Screen</h5>
                   <h6 className="text-dark">smart watch series 7</h6>
@@ -379,32 +399,28 @@ const Home = () => {
               <div className="marquee-inner-wrapper card-wrapper-marquee">
                 <Marquee className="d-flex">
                   <div className="mx-4 w-25">
-                    <img
-                      src="images/companies/kroger-logo.png"
-                      alt="brand"
-                      width="130"
-                    />
+                    <img src={krogerLogo} alt="brand" width="130" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-02.png" alt="brand" />
+                    <img src={brand2} alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-03.png" alt="brand" />
+                    <img src={brand3} alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-04.png" alt="brand" />
+                    <img src={brand4} alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-05.png" alt="brand" />
+                    <img src={brand5} alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-06.png" alt="brand" />
+                    <img src={brand6} alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-07.png" alt="brand" />
+                    <img src={brand7} alt="brand" />
                   </div>
                   <div className="mx-4 w-25">
-                    <img src="images/brand-08.png" alt="brand" />
+                    <img src={brand8} alt="brand" />
                   </div>
                 </Marquee>
               </div>

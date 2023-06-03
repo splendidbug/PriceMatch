@@ -12,9 +12,9 @@ const ProductCard = () => {
     <div className="col-3">
       <Link className="product-card position-relative" to="/product/id">
         <div className="wishlist-icon position-absolute">
-          <Link>
+          <button className="border-0 bg-transparent">
             <img src={wish} />
-          </Link>
+          </button>
         </div>
         <div className="product-image">
           <img
@@ -31,7 +31,7 @@ const ProductCard = () => {
           <ReactStars
             count={5}
             size={24}
-            value="3"
+            value={4}
             edit={false}
             activeColor="#ffd700"
           />
@@ -39,12 +39,12 @@ const ProductCard = () => {
         </div>
         <div className="action-bar position-absolute">
           <div className="d-flex flex-column gap-15">
-            <Link>
+            <button className="border-0 bg-transparent">
               <img src={cart} alt="add to cart" />
-            </Link>
-            <Link>
+            </button>
+            <button className="border-0 bg-transparent">
               <img src={compare} alt="add to cart" />
-            </Link>
+            </button>
           </div>
         </div>
       </Link>

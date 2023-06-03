@@ -2,12 +2,12 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Header from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import SearchResult from "./pages/SearchResult";
 import ProductDescription from "./pages/ProductDescription";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
             <Route path="contact" element={<Contact />} />
             <Route path="search/query" element={<SearchResult />} />
             <Route path="product/id" element={<ProductDescription />} />
+            <Route path="cart" element={<Cart />} />
           </Route>
         </Routes>
       </BrowserRouter>

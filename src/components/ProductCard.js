@@ -7,7 +7,7 @@ import watch1 from "../images/watch-1.jpg";
 import cart from "../images/add-cart.svg";
 import compare from "../images/prodcompare.svg";
 
-const ProductCard = () => {
+const ProductCard = ({ productData }) => {
   return (
     <div className="col-3">
       <Link className="product-card position-relative" to="/product/id">
@@ -18,24 +18,28 @@ const ProductCard = () => {
         </div>
         <div className="product-image">
           <img
-            src={watch}
+            src={productData.imgSrc}
             alt="product image"
             // max-width="200"
             // className="img-fluid"
           />
-          <img src={watch1} alt="product image" className="img-fluid" />
+          <img
+            src={productData.imgSrc2}
+            alt="product image"
+            className="img-fluid"
+          />
         </div>
         <div className="product-details">
-          <h6 className="brand">Target</h6>
-          <h5 className="product-title">Product name</h5>
+          <h6 className="brand">{productData.storeName}</h6>
+          <h5 className="product-title">{productData.productName}</h5>
           <ReactStars
             count={5}
             size={24}
-            value={4}
+            value={productData.starValue}
             edit={false}
             activeColor="#ffd700"
           />
-          <p className="price">$100</p>
+          <p className="price">$ {productData.price}</p>
         </div>
         <div className="action-bar position-absolute">
           <div className="d-flex flex-column gap-15">

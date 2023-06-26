@@ -35,6 +35,202 @@ import brand6 from "../images/brand-06.png";
 import brand7 from "../images/brand-07.png";
 import brand8 from "../images/brand-08.png";
 
+const featuredCollection = [
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "featuredCollection",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "popularProducts",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "popularProducts",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "popularProducts",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "popularProducts",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "popularProducts",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+    homePageCategory: "popularProducts",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 165156156,
+    starValue: 3,
+    homePageCategory: "popularProducts",
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 1030,
+    starValue: 3,
+  },
+  {
+    imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
+    imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
+    storeName: "Target1",
+    productName: "Prodname1",
+    price: 165156156,
+    starValue: 3,
+  },
+];
+
 const Home = () => {
   return (
     <>
@@ -310,16 +506,17 @@ const Home = () => {
       </section>
       {/*Featured collections */}
       <section className="featured-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+        <div className="container-xxl ">
           <div className="row">
             <div className="col-12">
-              <h3 className="section-heading">Featured Collections</h3>
+              <h3 className="section-heading">Featured Collection</h3>
             </div>
-
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <div className="d-flex featuredCollectionScroll">
+              {featuredCollection.map((data) => {
+                if (data.homePageCategory == "featuredCollection")
+                  return <ProductCard productData={data} />;
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -376,6 +573,22 @@ const Home = () => {
 
       {/*popular products */}
       <section className="popular-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl ">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Popular Products</h3>
+            </div>
+            <div className="d-flex featuredCollectionScroll">
+              {featuredCollection.map((data) => {
+                if (data.homePageCategory == "popularProducts")
+                  return <ProductCard productData={data} />;
+              })}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="popular-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
@@ -383,13 +596,13 @@ const Home = () => {
             </div>
           </div>
           <div className="row">
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            {featuredCollection.map((data) => {
+              if (data.homePageCategory == "popularProducts")
+                return <ProductCard productData={data} />;
+            })}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/*Moving banner with brand names */}
       <section className="marque-wrapper home-wrapper-2 py-5">

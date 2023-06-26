@@ -335,10 +335,10 @@ const ProductDescription = () => {
             </div>
           </div>
           <div className="row">
+            {/* <ProductCard />
             <ProductCard />
             <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard /> */}
           </div>
         </div>
       </section>

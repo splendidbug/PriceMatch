@@ -306,6 +306,7 @@ const SearchResult = () => {
               </div>
               <div className="products-list ">
                 <div className="d-flex flex-wrap product-list">
+                  {/* <ProductCard />
                   <ProductCard />
                   <ProductCard />
                   <ProductCard />
@@ -313,8 +314,7 @@ const SearchResult = () => {
                   <ProductCard />
                   <ProductCard />
                   <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
+                  <ProductCard /> */}
                 </div>
               </div>
             </div>

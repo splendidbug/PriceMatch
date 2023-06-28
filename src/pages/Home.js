@@ -34,6 +34,16 @@ import brand5 from "../images/brand-05.png";
 import brand6 from "../images/brand-06.png";
 import brand7 from "../images/brand-07.png";
 import brand8 from "../images/brand-08.png";
+import axios from "axios";
+
+axios
+  .get("http://localhost:5001/api/products/")
+  .then((res) => {
+    console.log(res.data);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 const featuredCollection = [
   {

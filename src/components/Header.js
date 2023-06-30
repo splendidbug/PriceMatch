@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
 import cart_44_24 from "../images/cart-44-24.png";
 import login from "../images/login.png";
 
 export const Header = () => {
+  const [searchText, setSearchText] = useState("");
+
+  const handleInputChange = (event) => {
+    setSearchText(event.target.value);
+
+    // console.log(searchText); //the text entered is dynamic without clicking the search button
+  };
+
+  const handleSearchClick = () => {
+    // Do something with the search text, e.g., make an API request
+    const urlSearchQuery = searchText.replace(/ /g, "+");
+    const url = "http://localhost:3000/search?q=" + urlSearchQuery; //https://example.com/search?q=" + encodeURIComponent(searchText);
+    window.location.href = url;
+  };
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      handleSearchClick();
+    }
+  };
+
   return (
     <>
       <header className="header-top-strip py-2">
@@ -35,8 +55,15 @@ export const Header = () => {
                 placeholder="Search product"
                 aria-label="Search product"
                 aria-describedby="basic-addon2"
+                value={searchText}
+                onChange={handleInputChange}
+                onKeyDown={handleKeyDown}
               />
-              <span className="input-group-text" id="basic-addon2">
+              <span
+                className="input-group-text"
+                id="basic-addon2"
+                onClick={handleSearchClick}
+              >
                 <BsSearch className="" />
               </span>
             </div>

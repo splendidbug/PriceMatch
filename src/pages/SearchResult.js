@@ -1,7 +1,23 @@
 import React from "react";
 import Meta from "../components/Meta";
 import ProductCard from "../components/ProductCard";
+import axios from "axios";
 
+const searchQuery =
+  "http://localhost:5001/api/products/search?q=" +
+  window.location.href.split("search?q=")[1];
+
+async function fetchSearchResults() {
+  try {
+    const response = await axios.get(searchQuery);
+    return response.data;
+  } catch (error) {
+    console.log(error);
+    return null;
+  }
+}
+const searchResults = await fetchSearchResults();
+// console.log(searchResults);
 const SearchResult = () => {
   return (
     <>
@@ -306,15 +322,9 @@ const SearchResult = () => {
               </div>
               <div className="products-list ">
                 <div className="d-flex flex-wrap product-list">
-                  {/* <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard />
-                  <ProductCard /> */}
+                  {searchResults.map((data) => {
+                    return <ProductCard productData={data} />;
+                  })}
                 </div>
               </div>
             </div>

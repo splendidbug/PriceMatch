@@ -47,54 +47,6 @@ async function fetchProductData() {
 }
 const featuredCollection = await fetchProductData();
 // console.log(featuredCollection);
-
-// const featuredCollection = [
-//   {
-//     imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
-//     imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
-//     storeName: "Target1",
-//     productName: "Prodname1",
-//     price: 1030,
-//     starValue: 3,
-//     homePageCategory: "featuredCollection",
-//   },
-//   {
-//     imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
-//     imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
-//     storeName: "Target1",
-//     productName: "Prodname1",
-//     price: 1030,
-//     starValue: 3,
-//     homePageCategory: "featuredCollection",
-//   },
-//   {
-//     imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
-//     imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
-//     storeName: "Target1",
-//     productName: "Prodname1",
-//     price: 1030,
-//     starValue: 3,
-//     homePageCategory: "popularProducts",
-//   },
-//   {
-//     imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
-//     imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
-//     storeName: "Target1",
-//     productName: "Prodname1",
-//     price: 165156156,
-//     starValue: 3,
-//     homePageCategory: "popularProducts",
-//   },
-//   {
-//     imgSrc: "https://m.media-amazon.com/images/I/41fLSxsRzkL._SY90_.jpg",
-//     imgSrc2: "https://m.media-amazon.com/images/I/41MZu3M2YSL._SY90_.jpg",
-//     storeName: "Target1",
-//     productName: "Prodname1",
-//     price: 1030,
-//     starValue: 3,
-//   }
-// ];
-
 const Home = () => {
   return (
     <>
